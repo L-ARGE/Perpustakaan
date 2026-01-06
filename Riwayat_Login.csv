@@ -1,0 +1,31 @@
+username,role,tanggal dan waktu,status
+mikel,admin,2025-12-21 23:34:22,BERHASIL
+mikel,admin,2025-12-21 23:34:54,GAGAL
+"& ""C:/Users/ASUS NB/AppData/Local/Python/pythoncore-3.14-64/python.exe"" ""c:/Users/ASUS NB/Documents/Belajar Python/ALPROTOL/LOGIN ADMIN DAN RIWAYAT KEGIATAN/LoginAdmin.py""",unknown,2025-12-21 23:35:23,GAGAL
+pria,user,2025-12-21 23:35:47,BERHASIL
+mikel,admin,2025-12-21 23:37:59,BERHASIL
+mikel,admin,2025-12-22 00:02:56,BERHASIL
+mikel,admin,2025-12-22 00:04:55,BERHASIL
+mikel,admin,2025-12-22 00:07:09,BERHASIL
+pria,Anggota,2025-12-22 00:13:26,BERHASIL
+pria,Anggota,2025-12-22 00:13:42,GAGAL
+pria,Anggota,2026-01-06 19:37:17,BERHASIL
+pria,Anggota,2026-01-06 19:40:48,BERHASIL
+pria,Anggota,2026-01-06 19:45:48,BERHASIL
+pria,Anggota,2026-01-06 19:48:15,BERHASIL
+pria,Anggota,2026-01-06 20:05:17,BERHASIL
+pria,Anggota,2026-01-06 20:23:08,BERHASIL
+pria,Anggota,2026-01-06 20:59:06,BERHASIL
+pria,Anggota,2026-01-06 21:00:14,BERHASIL
+pria,Anggota,2026-01-06 21:01:02,BERHASIL
+pria,Anggota,2026-01-06 21:03:53,BERHASIL
+pria,Anggota,2026-01-06 21:13:56,BERHASIL
+pria,Anggota,2026-01-06 21:39:26,BERHASIL
+pria,Anggota,2026-01-06 21:43:35,BERHASIL
+pria,Anggota,2026-01-06 21:46:21,BERHASIL
+pria,Anggota,2026-01-06 21:47:32,BERHASIL
+pria,Anggota,2026-01-06 21:49:46,BERHASIL
+pria,Anggota,2026-01-06 21:56:46,BERHASIL
+pria,Anggota,2026-01-06 21:57:40,BERHASIL
+pria,Anggota,2026-01-06 22:04:15,BERHASIL
+pria,Anggota,2026-01-06 22:10:30,BERHASIL

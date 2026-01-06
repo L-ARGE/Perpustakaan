@@ -1,0 +1,3 @@
+id_transaksi,nama,judul_buku,tanggal_pinjam,tanggal_kembali,status
+PMJBK-469834,pria,ANIMAL FARM,2026-01-06,2026-01-13,dikembalikan
+PMJBK-512434,pria,ABC,2026-01-06,2026-01-13,dipinjam
