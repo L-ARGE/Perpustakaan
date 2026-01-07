@@ -1,6 +1,7 @@
 import csv
 from datetime import datetime
 import pandas as pd
+import Fungsi_Data_2 as FD2
 
 def catat_login(nama, role, status):
     with open("Riwayat_Login.csv", mode="a", newline="") as file:
@@ -36,7 +37,7 @@ def menu_admin():
                 editData()
                 (input('klik enter untuk melanjutkan ke main menu = '))
             elif user_admin == 4:
-                print('status buku')
+                FD2.lihat_status_buku()
             elif user_admin == 5:
                 tambah_anggota("admin")
             elif user_admin == 6:
@@ -254,14 +255,3 @@ def lihat_data_anggota(role):
         print(data_anggota.to_string(index=False))
     except FileNotFoundError:
             print("File data anggota belum tersedia.")
-
-
-def pinjam_buku(role):
-    if role != "Anggota":
-        print("Hanya Anggota Perpustakaan yang dapat mengakses")
-        return
-    
-    print("====== PEMINJAMAN BUKU ======")
-    
-    
-
