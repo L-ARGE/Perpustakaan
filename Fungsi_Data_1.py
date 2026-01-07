@@ -2,6 +2,7 @@ import csv
 from datetime import datetime
 import pandas as pd
 import Fungsi_Data_2 as FD2
+import matplotlib.pyplot as plt
 
 def catat_login(nama, role, status):
     with open("Riwayat_Login.csv", mode="a", newline="") as file:
@@ -23,7 +24,8 @@ def menu_admin():
         print('= 4. Status buku                 =')
         print('= 5. Tambah anggota perpustakaan =')
         print('= 6. lihat anggota perpustakaan  =')
-        print('= 7. Logout                      =')
+        print('= 7. lihat grafik peminjaman     =')
+        print('= 8. Logout                      =')
         print('==================================')
         try:
             user_admin = int(input("pilih menu = "))
@@ -43,6 +45,8 @@ def menu_admin():
             elif user_admin == 6:
                 lihat_data_anggota("admin")
             elif user_admin == 7:
+                grafik()
+            elif user_admin == 8:
                 print('logout')
                 break
             else: 
@@ -255,3 +259,36 @@ def lihat_data_anggota(role):
         print(data_anggota.to_string(index=False))
     except FileNotFoundError:
             print("File data anggota belum tersedia.")
+
+
+def grafik():
+    readRiwayat = pd.read_csv('RIwayat_Peminjaman.csv')
+    tanggalPinjam = readRiwayat['tanggal_pinjam']
+
+    t = list(tanggalPinjam)
+
+    inThn = str(input('masukkan tahun yang ingin di sortir = '))
+    jmlBulan = {}
+
+    for f in t :
+        bulan = f[5:7]
+        tahun = f[0:4]
+        if tahun == inThn:
+            if bulan in jmlBulan:
+                jmlBulan[bulan] += 1
+            else:
+                jmlBulan[bulan] = 1
+
+    dataBulan = {
+        datetime(int(inThn), int(k), 1).strftime("%B"): v
+        for k, v in jmlBulan.items()
+    }
+
+    x = list(dataBulan.keys())
+    y = list(dataBulan.values())
+    plt.title(f'diagram peinjaman buku tahun {inThn}')
+    plt.bar(x,y)
+    plt.xlabel('bulan')
+    plt.ylabel('jumlah buku di pinjam')
+    plt.show()
+
