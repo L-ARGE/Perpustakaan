@@ -1,22 +1,9 @@
-Judul,Kategori,Rak_Buku,Status,stok
-ABC,50 - Majalah jurnal terbitan berkala,g5,tidak tersedia,stok ke -  1
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  2
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  3
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  4
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  5
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  6
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  7
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  8
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  9
-ABC,50 - Majalah jurnal terbitan berkala,g5,tersedia,stok ke -  10
-ANIMAL FARM,170 - Etika (moral),r30,tersedia,stok ke -  1
-ANIMAL FARM,170 - Etika (moral),r30,tersedia,stok ke -  2
-ANIMAL FARM,170 - Etika (moral),r30,tersedia,stok ke -  3
-GEOLOGI,910 - Geografi & perjalanan,g30,tersedia,stok ke -  1
-GEOLOGI,910 - Geografi & perjalanan,g30,tersedia,stok ke -  2
-GEOLOGI,910 - Geografi & perjalanan,g30,tersedia,stok ke -  3
-GEOLOGI,910 - Geografi & perjalanan,g30,tersedia,stok ke -  4
-GEOLOGI,910 - Geografi & perjalanan,g30,tersedia,stok ke -  5
-BUMI,930 - Sejarah dunia kuno,j30,tersedia,stok ke -  1
-BUMI,930 - Sejarah dunia kuno,j30,tersedia,stok ke -  2
-BUMI,930 - Sejarah dunia kuno,j30,tersedia,stok ke -  3
+Judul||,Kategori||,penerbit||,tahun terbit||,penulis||,Rak_Buku||,Status||,stok||
+JMM     ||,810 - Sastra Amerika     ||,BCS     ||,2000     ||,bumi     ||,j81     ||,tersedia     ||,stok ke -  1     ||
+JMM     ||,810 - Sastra Amerika     ||,BCS     ||,2000     ||,bumi     ||,j81     ||,tersedia     ||,stok ke -  2     ||
+JMM     ||,810 - Sastra Amerika     ||,BCS     ||,2000     ||,bumi     ||,j81     ||,tersedia     ||,stok ke -  3     ||
+JMM     ||,810 - Sastra Amerika     ||,BCS     ||,2000     ||,bumi     ||,j81     ||,tersedia     ||,stok ke -  4     ||
+JMM     ||,810 - Sastra Amerika     ||,BCS     ||,2000     ||,bumi     ||,j81     ||,tersedia     ||,stok ke -  5     ||
+BUMI DITEMUKAN     ||,820 - Sastra Inggris     ||,KAKATUA     ||,2000     ||,bumi     ||,h66     ||,tersedia     ||,stok ke -  1     ||
+BUMI YANG HILANG     ||,820 - Sastra Inggris     ||,KAKATUA     ||,2000     ||,bumi     ||,h66     ||,tersedia     ||,stok ke -  2     ||
+BUMI YANG HILANG     ||,820 - Sastra Inggris     ||,KAKATUA     ||,2000     ||,bumi     ||,h66     ||,tersedia     ||,stok ke -  3     ||
